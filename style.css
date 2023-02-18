@@ -38,7 +38,11 @@ body{
 .row1, .row2{
     display: flex;
     flex-direction: row;
-    margin: 2em 0em;
+    margin: 1em 0em;
+}
+
+.row3{
+    margin: 1em 0em;
 }
 
 .box{
@@ -76,6 +80,37 @@ body{
     border: 2px solid #043e7d;
 }
 
+.box-1{
+    width: 17em;
+    height: 6em;
+    background-color: #043e7d;
+    margin: 0em 1em;
+    padding: 0.5em;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1em;
+    line-height: 0.5em;
+    /* border-radius: 35px; */
+}
+
+.box-1 a{
+    color: white;
+    text-decoration: none;
+    display: block;
+    width: 14em;
+    padding: 0.1em;
+    text-align: center;
+
+}
+
+.box-1 a:hover{
+    background-color: #d2edff;
+    color: #043e7d;
+    border: 2px solid #043e7d;
+}
+
 .signcontainer{
     display: flex;
     align-items: center;
@@ -84,8 +119,8 @@ body{
 }
 
 .main{
-    width: 15em;
-    height: 15em;
+    width: 11.5em;
+    height: 11.5em;
     background-color: #043e7d;
     /* border-radius: 35px; */
     margin: 1em 0em;
@@ -117,8 +152,26 @@ body{
     border: 2px solid #043e7d;
 }
 
-.link h2{
+.link h2, .link-1 h2{
     font-size: 1em;
+}
+
+.link-1{
+    color: white;
+    text-decoration: none;
+    display: block;
+    width: 11.3em;
+    padding: 0.1em;
+    text-align: center;
+    /* border-radius: 15px; */
+    background-color: #043e7d;
+    margin: 0.5em;
+}
+
+.link-1:hover{
+    color: #043e7d;
+    background-color: #d2edff;
+    border: 2px solid #043e7d;
 }
 
 .subcontainer{

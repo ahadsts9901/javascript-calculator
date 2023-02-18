@@ -10,8 +10,8 @@ num1 = Number(num1);
 
 num2 = Number(num2);
 
-let answer = (num1 * num2);
+let answer = (num1 % num2);
 
-alert ('The product is : ' + answer);
+alert ('The reminder is : ' + answer);
 
-console.log ('The product is : ' + answer);
+console.log ('The reminder is : ' + answer);

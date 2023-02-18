@@ -12,6 +12,6 @@ num2 = Number(num2);
 
 let answer = (num1 - num2);
 
-alert (answer);
+alert ('The difference is : ' + answer);
 
-console.log (answer);
+console.log ('The difference is : ' + answer);

@@ -12,6 +12,6 @@ num2 = Number(num2);
 
 let answer = (num1 + num2);
 
-alert (answer);
+alert ('The sum is : ' + answer);
 
-console.log (answer);
+console.log ('The sum is : ' + answer);
